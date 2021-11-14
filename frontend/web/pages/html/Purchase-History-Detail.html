@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Purchase History Detail</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta charset="UTF-8" />
+
+        <link rel="stylesheet" type="text/css" href="../themes/main/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="../themes/main/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="../themes/main/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="../themes/main/css/style.css" />
+
+        <link rel="apple-touch-icon" sizes="180x180" href="../themes/main/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../themes/main/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../themes/main/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="../themes/main/images/favicons/site.webmanifest">
+        <link rel="mask-icon" href="../themes/main/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body class="profile-page">
+        <div id="wrapper">
+            <div id="header">
+                <div class="header-content">
+                    <a href="#mainnavMenu" class="mainnav-button"></a>
+
+                    <ul class="mainnav" id="mainnavMenu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Events</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+
+                    <ul class="user-bar profile">
+                        <li><a href="">My Account</a></li>
+                        <li>
+                            <a href="">Logout <i class="fa fa-sign-out"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="container">
+                <div class="section section-profile">
+                    <div class="section-container">
+                        <div class="submit-order-wrapper">
+                            <div class="block-title">
+                                Your History Order Detail
+                            </div>
+
+                            <ul class="order-details">
+                                <li>
+                                    <div class="inner">
+                                        <div class="order-item">
+                                            <div class="order-item-inner"><span>Transaction ID:</span> Not enter yet</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner">
+                                        <div class="order-item">
+                                            <div class="order-item-inner"><span>Events Name:</span> Events</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner">
+                                        <div class="order-item">
+                                            <div class="order-item-inner"><span>Number of Tables:</span> 4-6 People</div>
+                                        </div>
+                                        <div class="order-item-price">
+                                            $200.00
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner">
+                                        <div class="order-item">
+                                            <div class="order-item-inner"><span>Date:</span> Dec 26, 2020</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inner extended">
+                                        <div class="order-item">
+                                            <div class="order-item-inner"><span>Extra Items:</span> 10 Fireworks A, 6 Fireworks B</div>
+                                        </div>
+                                        <div class="order-item-price">
+                                            $22.00
+                                        </div>
+                                    </div>
+
+                                    <div class="extend">
+                                        <ul>
+                                            <li>
+                                                <div class="order-item">
+                                                    <div class="order-item-inner">
+                                                        Fireworks A ($1 x 10)
+                                                    </div>
+                                                </div>
+                                                <div class="order-item-price">
+                                                    $10.00
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="order-item">
+                                                    <div class="order-item-inner">
+                                                        Fireworks B ($2 x 6)
+                                                    </div>
+                                                </div>
+                                                <div class="order-item-price">
+                                                    $12.00
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="total">
+                                    <div class="inner">
+                                        <div class="order-item">
+                                            <div class="order-item-inner">
+                                                Total
+                                            </div>
+                                        </div>
+                                        <div class="order-item-price">
+                                            $222.00
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="list-controls">
+                                <a href="">Back to Profile</a>
+                            </div>
+
+                            <div class="buttons">
+                                <a href="" class="btn btn-lg btn-success" data-toggle="modal" data-target="#historyDetailMessage">Submit Transaction ID</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; 2020
+                </div>
+
+                <ul class="mainnav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="historyDetailMessage">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <a href="#" class="close-modal" data-dismiss="modal" aria-label="Close"></a>
+                    <div class="modal-header">
+                        <h4 class="modal-title">Enter Transaction ID</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="transaction-id-form">
+                            <div class="form-group">
+                                <input type="text" name="" id="" class="form-control" placeholder="Transaction ID" />
+                            </div>
+
+                            <div class="buttons">
+                                <button class="btn btn-md btn-success">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+        <script type="text/javascript" src="../themes/main/js/jquery.min.js"></script>
+        <script type="text/javascript" src="../themes/main/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../themes/main/js/scripts.js"></script>
+    </body>
+</html>
